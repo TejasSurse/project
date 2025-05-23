@@ -1,0 +1,232 @@
+import { Recipe } from '../types';
+
+export const recipes: Recipe[] = [
+  {
+    id: '1',
+    title: 'Classic Margherita Pizza',
+    description: 'A simple yet delicious traditional Italian pizza with fresh basil, mozzarella, and tomato sauce.',
+    image: 'https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg',
+    prepTime: 20,
+    cookTime: 15,
+    servings: 4,
+    difficulty: 'easy',
+    categories: ['Italian', 'Pizza', 'Vegetarian'],
+    tags: ['dinner', 'lunch', 'weeknight meal'],
+    ingredients: [
+      '1 pizza dough',
+      '1/3 cup tomato sauce',
+      '8 oz fresh mozzarella, sliced',
+      '10 fresh basil leaves',
+      '2 tbsp olive oil',
+      'Salt and pepper to taste'
+    ],
+    instructions: [
+      'Preheat the oven to 475°F (245°C) with a pizza stone inside if available.',
+      'Roll out the pizza dough on a floured surface to your desired thickness.',
+      'Spread tomato sauce evenly over the dough, leaving a small border for the crust.',
+      'Arrange mozzarella slices over the sauce.',
+      'Bake for 12-15 minutes until the crust is golden and cheese is bubbly.',
+      'Remove from oven, top with fresh basil leaves, drizzle with olive oil, and season with salt and pepper.'
+    ],
+    rating: 4.8,
+    reviews: 125,
+    isFeatured: true,
+    isPopular: true
+  },
+  {
+    id: '2',
+    title: 'Avocado Toast with Poached Egg',
+    description: 'The perfect breakfast or brunch dish, combining creamy avocado with a perfectly poached egg.',
+    image: 'https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg',
+    prepTime: 10,
+    cookTime: 5,
+    servings: 1,
+    difficulty: 'easy',
+    categories: ['Breakfast', 'Brunch', 'Vegetarian'],
+    tags: ['quick', 'healthy', 'high-protein'],
+    ingredients: [
+      '1 slice sourdough bread',
+      '1/2 ripe avocado',
+      '1 egg',
+      '1 tsp white vinegar',
+      'Red pepper flakes (optional)',
+      'Salt and pepper to taste',
+      'Fresh herbs (optional)'
+    ],
+    instructions: [
+      'Toast the bread until golden and crispy.',
+      'Mash the avocado in a bowl and season with salt and pepper.',
+      'Spread the mashed avocado on the toast.',
+      'Bring water to a simmer in a pan, add vinegar.',
+      'Crack the egg into a ramekin, then gently slide it into the simmering water.',
+      'Poach for 3-4 minutes until whites are set but yolk is still runny.',
+      'Remove egg with a slotted spoon and place on top of avocado toast.',
+      'Sprinkle with red pepper flakes and fresh herbs if desired.'
+    ],
+    rating: 4.5,
+    reviews: 87,
+    isFeatured: false,
+    isPopular: true
+  },
+  {
+    id: '3',
+    title: 'Thai Green Curry',
+    description: 'A fragrant and spicy Thai curry with vegetables and your choice of protein.',
+    image: 'https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg',
+    prepTime: 15,
+    cookTime: 25,
+    servings: 4,
+    difficulty: 'medium',
+    categories: ['Thai', 'Curry', 'Asian'],
+    tags: ['dinner', 'spicy', 'comfort food'],
+    ingredients: [
+      '2 tbsp green curry paste',
+      '1 can (14 oz) coconut milk',
+      '1 lb chicken, tofu, or shrimp',
+      '1 bell pepper, sliced',
+      '1 zucchini, sliced',
+      '1 cup snap peas',
+      '1 tbsp fish sauce (or soy sauce)',
+      '1 tbsp brown sugar',
+      'Fresh Thai basil',
+      'Lime wedges for serving'
+    ],
+    instructions: [
+      'Heat a large pan or wok over medium heat.',
+      'Add 2 tbsp of coconut milk and the curry paste, stir until fragrant.',
+      'Add your protein of choice and cook until nearly done.',
+      'Pour in the rest of the coconut milk and bring to a simmer.',
+      'Add vegetables and cook until tender but still crisp.',
+      'Stir in fish sauce and brown sugar.',
+      'Garnish with Thai basil and serve with lime wedges and rice.'
+    ],
+    rating: 4.7,
+    reviews: 103,
+    isFeatured: true,
+    isPopular: false
+  },
+  {
+    id: '4',
+    title: 'Classic Chocolate Chip Cookies',
+    description: 'The perfect chocolate chip cookies - crisp edges, soft centers, and lots of chocolate!',
+    image: 'https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg',
+    prepTime: 15,
+    cookTime: 12,
+    servings: 24,
+    difficulty: 'easy',
+    categories: ['Dessert', 'Baking', 'Cookies'],
+    tags: ['sweets', 'kid-friendly', 'classic'],
+    ingredients: [
+      '2 1/4 cups all-purpose flour',
+      '1 tsp baking soda',
+      '1 tsp salt',
+      '1 cup unsalted butter, softened',
+      '3/4 cup granulated sugar',
+      '3/4 cup packed brown sugar',
+      '2 large eggs',
+      '2 tsp vanilla extract',
+      '2 cups semi-sweet chocolate chips'
+    ],
+    instructions: [
+      'Preheat oven to 375°F (190°C).',
+      'In a small bowl, combine flour, baking soda, and salt.',
+      'In a large bowl, cream together butter and both sugars until light and fluffy.',
+      'Beat in eggs one at a time, then stir in vanilla.',
+      'Gradually blend in the dry ingredients.',
+      'Fold in chocolate chips.',
+      'Drop rounded tablespoons of dough onto ungreased baking sheets.',
+      'Bake for 9-11 minutes or until golden brown.',
+      'Let stand on baking sheet for 2 minutes, then cool on wire racks.'
+    ],
+    rating: 4.9,
+    reviews: 215,
+    isFeatured: false,
+    isPopular: true
+  },
+  {
+    id: '5',
+    title: 'Fresh Summer Gazpacho',
+    description: 'A refreshing cold soup perfect for hot summer days, packed with fresh vegetables.',
+    image: 'https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg',
+    prepTime: 20,
+    cookTime: 0,
+    servings: 6,
+    difficulty: 'easy',
+    categories: ['Soup', 'Spanish', 'Vegetarian'],
+    tags: ['summer', 'no-cook', 'healthy'],
+    ingredients: [
+      '2 lbs ripe tomatoes',
+      '1 cucumber, peeled and chopped',
+      '1 red bell pepper, chopped',
+      '1/2 red onion, chopped',
+      '2 garlic cloves, minced',
+      '3 tbsp olive oil',
+      '2 tbsp red wine vinegar',
+      'Salt and pepper to taste',
+      'Fresh herbs for garnish'
+    ],
+    instructions: [
+      'Roughly chop all vegetables.',
+      'Set aside 1/4 cup each of the cucumber, bell pepper, and onion for garnish.',
+      'Blend the remaining vegetables with olive oil, vinegar, salt, and pepper until smooth.',
+      'Strain through a fine-mesh sieve for a smoother texture (optional).',
+      'Refrigerate for at least 2 hours or overnight.',
+      'Serve cold, garnished with the reserved chopped vegetables and fresh herbs.'
+    ],
+    rating: 4.3,
+    reviews: 58,
+    isFeatured: true,
+    isPopular: false
+  },
+  {
+    id: '6',
+    title: 'Beef Stroganoff',
+    description: 'A comforting Russian dish featuring tender beef in a creamy mushroom sauce served over egg noodles.',
+    image: 'https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg',
+    prepTime: 15,
+    cookTime: 30,
+    servings: 4,
+    difficulty: 'medium',
+    categories: ['Russian', 'Beef', 'Comfort Food'],
+    tags: ['dinner', 'winter', 'family meal'],
+    ingredients: [
+      '1.5 lbs beef sirloin, thinly sliced',
+      '8 oz mushrooms, sliced',
+      '1 onion, diced',
+      '2 cloves garlic, minced',
+      '2 tbsp butter',
+      '1 cup beef broth',
+      '1 tbsp Dijon mustard',
+      '1 cup sour cream',
+      '12 oz egg noodles',
+      'Fresh parsley for garnish'
+    ],
+    instructions: [
+      'Cook egg noodles according to package directions.',
+      'Season beef with salt and pepper.',
+      'In a large skillet, melt butter over medium-high heat.',
+      'Sear beef in batches until browned, about 2 minutes per side. Remove and set aside.',
+      'In the same pan, sauté onions and mushrooms until soft.',
+      'Add garlic and cook for 1 minute more.',
+      'Stir in beef broth and mustard, simmer for 5 minutes.',
+      'Reduce heat to low and stir in sour cream until heated through.',
+      'Return beef to the sauce and warm gently.',
+      'Serve over egg noodles and garnish with parsley.'
+    ],
+    rating: 4.6,
+    reviews: 92,
+    isFeatured: false,
+    isPopular: true
+  }
+];
+
+export const categories: Category[] = [
+  { id: '1', name: 'Breakfast', icon: 'coffee' },
+  { id: '2', name: 'Lunch', icon: 'sandwich' },
+  { id: '3', name: 'Dinner', icon: 'utensils' },
+  { id: '4', name: 'Vegetarian', icon: 'leaf' },
+  { id: '5', name: 'Dessert', icon: 'cake' },
+  { id: '6', name: 'Italian', icon: 'pizza' },
+  { id: '7', name: 'Asian', icon: 'bowl-food' },
+  { id: '8', name: 'Quick & Easy', icon: 'timer' }
+];
